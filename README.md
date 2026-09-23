@@ -114,10 +114,8 @@ For the segmentation task (`src/models/clustering.py`): the two sheets are joine
 
 Requires **Python 3.10+**.
 
-> The public repository URL will be added on publication; the clone command below is a placeholder until then.
-
 ```bash
-git clone <repository-url>
+git clone https://github.com/dnperak999-arch/paye-mean-pay-forecasting.git
 cd paye-mean-pay-forecasting
 
 python -m venv .venv
