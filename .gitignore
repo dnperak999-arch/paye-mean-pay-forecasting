@@ -1,0 +1,38 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Editors / IDEs
+.idea/
+.vscode/
+
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+
+# OS files
+.DS_Store
+
+# Datasets (not redistributed)
+data/*.xlsx
+data/*.xls
+data/*.csv
+
+# Secrets / environment files
+.env
+.env.*
+*.pem
+*.key
+
+# Archives and logs
+*.zip
+*.log
+
+# NOTE: figures/ is intentionally NOT ignored - the README embeds the PNGs.
